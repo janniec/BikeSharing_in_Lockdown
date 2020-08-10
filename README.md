@@ -1,8 +1,8 @@
 # Divvy in the Pandemic Lockdown
 
-For this project, I was interested better understand the experience of Divvy, Chicago's bicycle-sharing program, during the Pandemic Lockdown and Reopening of 2020. Specifically I wanted to answer:
-1. Was demand for bicycles higher or lower during the Lockdown?
-2. Has trips moved away from the Loop and the Lakefront?
+For this project, I was interested in the experience of Divvy, Chicago's bicycle-sharing program, during the Pandemic Lockdown and Reopening of 2020. Specifically I wanted to answer:
+1. Has rides moved away from the Loop and the Lakefront?
+2. Was demand for bicycles higher or lower during the Lockdown?
 3. Did revenue increased or decreased during the Lockdown?
 
 
@@ -46,12 +46,14 @@ The libraries required for this code are listed in 'requirements.txt'. In order 
   * haversine_forumla.py - module containing function to calculate distance in miles between 2 latitude and longitude points.
   * visualize_plots.py - module containing function to visualize pivot plots and save them as pngs.
   
-5 png files in the 'images' directory - images of the visualizations created by the code. 
+5 png files in the 'images' directory - images of the visualizations created by the code and for the blog. 
   * count_ride_id_by_week.png
   * mean_duration_minutes_by_week.png
   * median_end_dist_from_lakefront_by_week.png
   * median_end_dist_from_loop_by_week.png
   * sum_revenue_by_week.png
+  * chicago_bicycle.jpg
+  * lightfoot.jpg
 
 
 ## Results
