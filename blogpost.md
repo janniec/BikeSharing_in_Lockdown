@@ -1,7 +1,7 @@
 # Bicycle-Sharing in the Pandemic Lockdown
 How data from the first lockdown can prepare Divvy for the second one. 
 
-[[https://github.com/janniec/BikeSharing_in_Lockdown/blob/master/images/JE2LC456Q5AQ3AQNV6MLOVJHPI.jpg|alt=Divvy]]
+![Divvy](https://github.com/janniec/BikeSharing_in_Lockdown/blob/master/images/JE2LC456Q5AQ3AQNV6MLOVJHPI.jpg)
 image source: [Chicago Tribune](https://www.chicagotribune.com/business/transportation/ct-biz-divvy-cta-petition-looting-lightfoot-20200602-m74qyesnoned5ln2e6mf4k3csm-story.html)
 
 ### Introduction
@@ -10,7 +10,7 @@ Like fellow city-dwellers during the Coronavirus Pandemic, I have been avoiding 
 
 On July 15, Mayor Lori Lightfoot of Chicago warned that the City would go back into lockdown if COVID-19 cases continued to rise. As cases surge across the United States, a second lockdown in Chicago is looking more imminent. Fortunately, Divvy has data from the first lockdown to help answer some questions in preparation for the second one. 
 
-[[https://github.com/janniec/BikeSharing_in_Lockdown/blob/master/images/LIGHTFOOT_071620_8.0.jpg|alt=mayor]]
+![mayor](hhttps://github.com/janniec/BikeSharing_in_Lockdown/blob/master/images/LIGHTFOOT_071620_8.0.jpg)
 image source: [Chicago Sun Times](https://chicago.suntimes.com/city-hall/2020/7/15/21325689/coronavirus-young-people-positive-tests-chicago-reopening-rollback-lightfoot)
 
 Focusing on the following significant events related to Chicago's (first) Lockdown and Reopening:
