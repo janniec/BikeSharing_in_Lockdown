@@ -1,8 +1,8 @@
-# Bicycle-Sharing in the Pandemic Lockdown.
+# Bicycle-Sharing in the Pandemic Lockdown
 How data from the first lockdown can prepare Divvy for the second one. 
 
-<img src="https://github.com/janniec/RideSharing_in_Lockdown/blob/master/images/JE2LC456Q5AQ3AQNV6MLOVJHPI.jpg" alt="Dimensions" align="middle" height=400px>  
-(image source: [Chicago Tribune](https://www.chicagotribune.com/business/transportation/ct-biz-divvy-cta-petition-looting-lightfoot-20200602-m74qyesnoned5ln2e6mf4k3csm-story.html))
+[[https://github.com/janniec/BikeSharing_in_Lockdown/blob/master/images/JE2LC456Q5AQ3AQNV6MLOVJHPI.jpg|alt=Divvy]]
+image source: [Chicago Tribune](https://www.chicagotribune.com/business/transportation/ct-biz-divvy-cta-petition-looting-lightfoot-20200602-m74qyesnoned5ln2e6mf4k3csm-story.html)
 
 ### Introduction
 
@@ -10,8 +10,8 @@ Like fellow city-dwellers during the Coronavirus Pandemic, I have been avoiding 
 
 On July 15, Mayor Lori Lightfoot of Chicago warned that the City would go back into lockdown if COVID-19 cases continued to rise. As cases surge across the United States, a second lockdown in Chicago is looking more imminent. Fortunately, Divvy has data from the first lockdown to help answer some questions in preparation for the second one. 
 
-<img src="https://github.com/janniec/RideSharing_in_Lockdown/blob/master/images/LIGHTFOOT_071620_8.0.jpg" alt="Dimensions" align="middle" height=400px>  
-(image source: [Chicago Sun Times](https://chicago.suntimes.com/city-hall/2020/7/15/21325689/coronavirus-young-people-positive-tests-chicago-reopening-rollback-lightfoot))
+[[https://github.com/janniec/BikeSharing_in_Lockdown/blob/master/images/LIGHTFOOT_071620_8.0.jpg|alt=mayor]]
+image source: [Chicago Sun Times](https://chicago.suntimes.com/city-hall/2020/7/15/21325689/coronavirus-young-people-positive-tests-chicago-reopening-rollback-lightfoot)
 
 Focusing on the following significant events related to Chicago's (first) Lockdown and Reopening:
   * March 9, 2020 - Governor J. B. Pritzker announced a disaster proclamation (a state of emergency) for the state of Illinois.
@@ -30,7 +30,7 @@ Focusing on the following significant events related to Chicago's (first) Lockdo
 
 (More information about [Divvy](https://en.wikipedia.org/wiki/Divvy), the [lockdown and reopening](https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Illinois#City_of_Chicago), and the [protests](https://en.wikipedia.org/wiki/George_Floyd_protests_in_Chicago) can be found here.)
 
-I used Divvy's [publically available ](https://www.divvybikes.com/system-data) 2020 data, which tracked over 1 million bicycle rentals during the first 6 months of 2020.  Each bicycle rental has the following:
+I used Divvy's [publicly available ](https://www.divvybikes.com/system-data) 2020 data, which tracked over 1 million bicycle rentals during the first 6 months of 2020.  Each bicycle rental has the following:
   * a unique "ride_id", 
   * rental date and time
   * return date and time
@@ -49,10 +49,10 @@ Before the pandemic, Divvy bicycles were regulary found around the Loop, Chicago
 
 During the Lockdown, all but essential workers were ordered to work from home by the Governor's stay-at-home order and all parks and the Lakefront trail were closed. However, for the same reasons these locations attracted Divvy, they also attract residences. These popular neighborhoods still had locals who most likely needed modes of transporation apart from the public transporation, discouraged during the Lockdown. So I wanted to know if despite the the population still living around the Loop and the Lakefront, did Divvy rides move away from these former central hubs? 
 
-<img src="https://github.com/janniec/RideSharing_in_Lockdown/blob/master/images/median_end_dist_from_loop_by_week.png" alt="Dimensions" align="middle" height=400px>  
+[[https://github.com/janniec/BikeSharing_in_Lockdown/blob/master/images/median_end_dist_from_loop_by_week.png|alt=median_end_dist_from_loop_by_week]]
 To answer this question, I found the distance between the bicycle return/ destination and our points of interest.  I then aggregated the distances by weeks, and then plotted the medians by week, as marked by the Monday date of each week. As you can see, before the Governor issued the disaster proclamation, Illinois' version of state of emergency, the median distance hovered around 1.25 miles, meaning that half of Divvy's many bicycle rides ended close to a mile or less from the Loop. After the Lockdown began, when the Gonvernor announced the stay-at-home order, the median distance moved to more than 2.5 miles from the Loop. When the Governor extneded that order, the median moved closer to 3 miles. When the protests and riots began after Memorial Day, the median moved even farther way from the Loop. Interestingly, even with Illionis entering Phases 2, 3, and 4, Divvy rides appear to largely stay away from the Loop. 
 
-<img src="https://github.com/janniec/RideSharing_in_Lockdown/blob/master/images/median_end_dist_from_lakefront_by_week.png" alt="Dimensions" align="middle" height=400px> 
+[[https://github.com/janniec/BikeSharing_in_Lockdown/blob/master/images/median_end_dist_from_lakefront_by_week.png|alt=median_end_dist_from_lakefront_by_week]]
 For distance from the Lakefront, I only measured the difference in longitude, the east-west positions of the ride destinations from the Lakefront, regardless of how far north or south the ride took place. Before the Lockdown, the median distance from the Lakefront was almost consistenly around 1.55 miles. This median made sense because of the week day traffic in the Loop.  I had aggregated the data by week, including weekdays.  Whereas, the Lakefront largely drew crowds on the weekends. In addition, the 2 major train stations that fed commuters into the Loop, are both about 1.5 miles from the Lakefront. When the Governor announced the disaster proclamation, there was little very little change in the median. However, the median began to move away from the Lakefront with the stay-at-home order and the closure of the lakefronts.  Unlike the median distance from the Loop, the median distance from the Lakefront shrank with the Reopening. Apart from the spike in the median due to the protests and the riots, Divvy rides has been moving back to the Lakefront. 
 
 Divvy rides and returns have been moving away from these central hubs. Given that traffic has not returned to the Loop yet and a second lockdown would keep traffic out for longer, Divvy should consider moving some fo the densly situated rental stations out of the Loop and into more residential neighborhoods. As for the Lakefront, Divvy rides appear to avoid the parks and trails only during Lockdown, only to return during reopening. Divvy should leave the Lakefront rental stations as they are. However, Divvy should consider ferrying the bicycles themselves away from the Lakefront druing the second Lockdown to meet the temporary demands of the bicycles elsewhere.
@@ -62,10 +62,10 @@ Divvy rides and returns have been moving away from these central hubs. Given tha
 
 With bicycle rentals moving away from the most active parts of the city, I wondered if demand for Divvy bicycles had decreased during the Lockdown. To answer this question, I looked at 2 metrics - the count of rides by week the average duration of those rides by week. 
 
-<img src="https://github.com/janniec/RideSharing_in_Lockdown/blob/master/images/count_ride_id_by_week.png" alt="Dimensions" align="middle" height=400px>  
+[[https://github.com/janniec/BikeSharing_in_Lockdown/blob/master/images/count_ride_id_by_week.png|alt=count_ride_id_by_week]] 
 Before the Lockdown, the count of rodes swung wildy between 20,000 to 55,000, probably due to fluctuations in weather. However The Governor's disaster proclamation & stay-at-home lead to a clear dip in the total number of rides. For the msot part, the count stayed down until Illinois entered Phase 2 of Reopening. With the reopening, the count of rides has again swung wildy, probably due to fluctuations weather. But there is a clear rise in the count of rides per week. At June, the rides are nearly 4 times higher than the count at the beginning of the Lockdown. This degree of increase is suprising given the severe summer humidity and lack of any events to draw any traffic. I can only assume this level of popularity is due to the Reopening.
 
-<img src="https://github.com/janniec/RideSharing_in_Lockdown/blob/master/images/mean_duration_minutes_by_week.png" alt="Dimensions" align="middle" height=400px>  
+[[https://github.com/janniec/BikeSharing_in_Lockdown/blob/master/images/mean_duration_minutes_by_week.png|alt=mean_duration_minutes_by_week]]  
 While the count of rides took an initial hit with the Lockdown, the same cannot be said with the duration of these rides. The Lockdown seems to have had an inverse impact on duration. Those rides increased quite a bit and continued to increase throughout the Lockdown. This increase makes sense because while most of Chicago stayed at home, those who had to go out probably chose to go the extra distance with a Divvy bicycle to avoid public transit. With the reopening, the average duration is about double the duration of the rides before the Lockdown.
 
 Looking at these visualizations together, it would appear that demand for Divvy bicycles did go down but not as much as I would have thought becuase of how much duration of those rides increased. However, the Reopening gave the demand for Divvy bicycles a huge boost. The count of rides quadrupled while the duration has continued to increase. 
@@ -88,7 +88,7 @@ Unfortunately, we cannot calculate a full picture of Divvy's revenue from the da
 
 Please note that in August 2020 Divvy changed their pricing.
 
-<img src="https://github.com/janniec/RideSharing_in_Lockdown/blob/master/images/sum_revenue_by_week.png" alt="Dimensions" align="middle" height=400px>  
+[[https://github.com/janniec/BikeSharing_in_Lockdown/blob/master/images/sum_revenue_by_week.png|alt=sum_revenue_by_week]] 
 Looking at the sum of revenue by week, there is a clear dip in the month of March, when the lockdown first started. But even after the Governor announces the stay-at-home order, revenue still increased slighlty, probably due to the longer durations of the rides. Once the State began talking about reopening, the revenue appears to have gotten back on track. There ar 2 noticeable dips in May and June.  The first dip appears be due to the beginning of the summer heat and humidity. The second dip appears to be due to the protests and riots. But overall, the effects on the Lockdown on revenue appears to be temporary. As long as Divvy prepares for another dip at the onset of a second lockdown, it should stay viable to see a comeback with the reopening. 
 
 
@@ -106,4 +106,4 @@ I should note that the findings here were observational. So the real question re
 
 #           How will Divvy do in the Second Lockdown?
 
-To see more about this analysis, please check out my [Github](https://github.com/janniec/RideSharing_in_Lockdown/blob/master/README.md).
+To see more about this analysis, please check out my [Github](https://github.com/janniec/BikeSharing_in_Lockdown/blob/master/README.md).
