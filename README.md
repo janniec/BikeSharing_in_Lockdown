@@ -58,7 +58,7 @@ The libraries required for this code are listed in 'requirements.txt'. In order 
 
 ## Results
 
-The findings from the code in this repository can be found in the [blog post](https://github.com/janniec/RideSharing_in_Lockdown/blob/master/blogpost.md).
+The findings from the code in this repository can be found in the [blog post](https://github.com/janniec/BikeSharing_in_Lockdown/blob/master/blogpost.md).
 
 
 ## Next Steps
