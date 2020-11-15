@@ -76,7 +76,7 @@ Looking at these visualizations together, it would appear that demand for Divvy 
 The flipside of demand is unavailability. Unfortunately, Divvy does not share that total number of bicycles in the program nor the ids of the bicycles for each trip to track bicycles' conditions. So it would be hard to say if there was a bicycle shortage during the Reopening. But Divvy may want to consider adding more bicycles to the program to meet the demands of a second reopening.   
   
   
-## Part 3: Did Revenue Increased or Decreased during the Lockdown?  
+## Part 3: Did Revenue Increase or Decrease during the Lockdown?  
   
 Finally and more importantly, how is Divvy doing? With [the news](https://www.chicagotribune.com/coronavirus/ct-coronavirus-chicago-business-closures-yelp-20200722-nmhvpmv72fdyzdjgvzoun7rima-story.html) reporting that over 4,000 Chicago businesses have closed during the pandemic and more than half of them will never reopen, there's genuine concern for any business struggling during the Lockdown. Obviously, we don't have any information into Divvy's costs or profits to gauge if Divvy is indeed struggling. But we can look at our data for a general upward or downward trend in revenue from 'casual' and 'member' rides.  
 
